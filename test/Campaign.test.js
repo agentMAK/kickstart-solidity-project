@@ -6,6 +6,7 @@ const web3 = new Web3(ganache.provider({ gasLimit: 1000000000 }));
 const compiledFactory = require('../ethereum/build/CampaignFactory.json');
 const compiledCampaign = require('../ethereum/build/Campaign.json');
 
+//Variables
 let accounts;
 let factory;
 let campaignAddress;
